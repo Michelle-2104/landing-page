@@ -1,19 +1,46 @@
 h1 {
     color: turquoise;
-    font-size: 20px;
+    font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
-
 .list {
     display: flex;
-    flex-direction: row;
-    flex: 1;
+    
     justify-content: space-between;
     text-decoration: none;
-    list-style: none;
+    list-style-type: none;
     background: white;
     color: tomato;
     font-size: 10px;
+    background-color: wheat;
+    margin: 0;
+    padding: 0;
+       
+}
+
+.content {
+    font-style: oblique;
+    color: turquoise;
+    font-size: 25px;
+    font-display: ;
+}
+
+
+
+a {text-decoration: none;
+    list-style-type: none;
+    color: tomato;
+    justify-items: flex-start;
+
+}
+button {
+    background-color: turquoise;
+   
+}
+li {
+    list-style: none;
+    text-decoration:none;
+    flex: 1;
 }
