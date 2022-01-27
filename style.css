@@ -1,46 +1,72 @@
-h1 {
-    color: turquoise;
-    font-size: 50px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.list {
-    display: flex;
-    
-    justify-content: space-between;
-    text-decoration: none;
-    list-style-type: none;
-    background: white;
-    color: tomato;
-    font-size: 10px;
-    background-color: wheat;
+* {
     margin: 0;
     padding: 0;
-       
+}
+  
+
+span {
+    color: tomato;
+    
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 15vh;
+    background-color: wheat;
+}
+
+.list {
+   margin-right: auto;
+   justify-content: space-between;
+   list-style: none;
+}
+.list li a:hover {
+    color: red;
+}
+.list li a {
+    transition: all 0.3s ease 0;
+}
+
+li, a, button {
+    display: inline-block;      
+    text-decoration: none;
+    color: tomato;
+    font-size: 14px;
+    justify-content: space-between;    
+}
+button {
+    background-color: turquoise;
+    padding: 9px 25px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover {
+    background-color: aqua;
 }
 
 .content {
     font-style: oblique;
     color: turquoise;
-    font-size: 25px;
-    font-display: ;
-}
-
-
-
-a {text-decoration: none;
-    list-style-type: none;
-    color: tomato;
-    justify-items: flex-start;
-
-}
-button {
-    background-color: turquoise;
+    font-size: 15px;
    
 }
-li {
-    list-style: none;
-    text-decoration:none;
-    flex: 1;
+
+header {
+    height: 10vhs;
 }
+footer {
+    height: 15b;
+    bottom: 0;
+    color: red;
+    background-color: wheat;
+    position: absolute;
+    width: 100%;
+}
+
+
+
