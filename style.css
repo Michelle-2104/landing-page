@@ -2,25 +2,23 @@
     margin: 0;
     padding: 0;
 }
-  
-
-span {
+  h1 {
     color: tomato;
+    font-size: 15px;
     
-    font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 header {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 15vh;
     background-color: wheat;
 }
 
 .list {
-   margin-right: auto;
+    display: flex;
    justify-content: space-between;
    list-style: none;
 }
@@ -40,7 +38,7 @@ li, a, button {
 }
 button {
     background-color: turquoise;
-    padding: 9px 25px;
+    padding: 9px 24px;
     border: none;
     cursor: pointer;
     transition: all 0.3s ease 0s;
@@ -50,14 +48,36 @@ button:hover {
 }
 
 .content {
+display: flex;
+justify-content: space-between;
+  margin-top: 10px;
     font-style: oblique;
     color: turquoise;
     font-size: 15px;
-   
+          
+}
+.sols {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: tomato;
+    font-style: oblique;
+    font-size: 15px;
+}
+.products, h2 {
+    color: turquoise;
 }
 
-header {
-    height: 10vhs;
+.products {
+    font-size: 10px;
+
+}
+h2 {
+    font-size: 12px;
+}
+.review {
+    font-size: 10px;
+    color: seagreen;
 }
 footer {
     height: 15b;
@@ -66,6 +86,7 @@ footer {
     background-color: wheat;
     position: absolute;
     width: 100%;
+    bottom: 0;
 }
 
 
